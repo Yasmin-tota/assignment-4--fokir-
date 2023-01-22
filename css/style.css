@@ -1,0 +1,290 @@
+/* ---------------------- General Style ----------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+
+
+/* ---------------------- header Style ----------------------- */
+.layout{
+    background-color:rgba(0, 0, 0, 0.8);
+}
+.header{
+    background-image: url(../img/slider/slider-01.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+/* ---------------------- Navbar Style ----------------------- */
+.nav{   
+    width: 100%;
+    
+}
+.a-logo{
+    width:  25%;
+    float: left;
+    margin-left: 150px;
+    padding-top: 10px;
+    font-family: "Roboto",sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+}
+.a-logo a{
+    color: #ff305b;
+    text-decoration: none;
+    padding: 20px 0; 
+    font-size: 24px;
+    font-weight: 800; 
+}
+.pages{
+    width:50%;
+    float: right;  
+}
+.pages ul{
+   list-style-type:none; 
+   padding: 0;
+}
+.pages ul a{
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+ }
+ .pages ul .a-home a{
+    color: #ff305b;
+ }
+ .pages ul a:hover{
+    color: #ff305b;
+ }
+.nav li {
+    float: left;
+    padding: 15px 10px ; 
+}
+.header-content{
+   
+   text-align: center;
+   color: #fff;
+   padding-top: 150px;
+   font-family: 'Source Sans Pro', sans-serif;
+   height: 100%;
+   
+}
+
+.header-content h1{
+    color: #ff305b;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+ }
+
+ .header-content h4::after{
+    content: " | ";
+    animation: typing 4s  infinite;  
+ }
+
+ .header-content .s-cont {
+    font-size: 24px;
+    margin-bottom: 10px;
+ }
+ 
+@keyframes typing {
+    0%{content:" | ";}
+    3%{content:" D| ";}
+    6%{content:" De| ";}
+    9%{content:" Des| ";}
+    12%{content:" Desi| ";}
+    15%{content:" Desig| ";}
+    18%{content:" Design| ";}
+    22%{content:" Designe| ";}
+    25%{content:" Designer| ";}
+    28%{content:" Designe| ";}
+    32%{content:" Design| ";}
+    35%{content:" Desig| ";}
+    38%{content:" Desi| ";}
+    42%{content:" Des| ";}
+    45%{content:" De| ";}
+    48%{content:" D| ";}
+    52%{content:" | ";}
+    55%{content:" De| ";}
+    58%{content:" Dev| ";}
+    62%{content:" Deve| ";}
+    65%{content:" Devel| ";}
+    68%{content:" Develo| ";}
+    72%{content:" Develop| ";}
+    75%{content:" Develope| ";}
+    78%{content:" Developer| ";}
+}
+
+/* **************** first section*************************** */
+
+
+
+
+/* **************** second section*************************** */
+
+.section{
+    background: #f1f1f1;
+    padding:100px 0 54px;
+}
+.container{
+    /* background-color: tomato; */
+    margin: auto;
+    width: 90%;
+}
+.section-header{
+    /* background-color: red; */
+    margin: auto;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+
+
+}
+.section-header h2{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+    position: relative;
+
+}
+.section-header h2::before{
+    content: "";
+    position: absolute;
+    border-color: #ff305b;
+    width: 70px;
+    margin: 0 auto;
+    padding: 4px 0 5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-style: solid;
+    border-width: 1px 0;
+}
+
+.section-header h2::after {
+    content: "";
+    height: 1px;
+    width: 70px;
+    background-color: #ff305b;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+}
+
+.section-content{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.item{
+    /* background-color: orange; */
+    width: 25%;
+    text-align: center;
+    float: left;
+    padding: 15px 20px;
+
+}
+
+.item:hover{
+    background-color: #fff;
+    
+}
+
+.item h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+
+
+.inner{
+    /* background-color: blue; */
+    padding: 40px 15px;
+}
+
+
+
+
+
+
+
+/* **************** third section*************************** */
+
+/* ma3rftsh a override 3la l sectin el general */
+.sec-3{
+    padding:100px 0 54px; 
+    
+}
+
+.Portfolio-list{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+
+}
+.Portfolio-list ul{
+    
+    list-style-type:none; 
+    margin-left: 80px;
+    
+
+ }
+ .Portfolio-list li{
+    float: left;
+    padding: 15px 10px ;   
+ }
+
+.Portfolio-list ul a{
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    color: #555555;
+ }
+ .Portfolio-list ul .a-home a{
+   color: #ff305b;
+ }
+
+.section-content .sec3{
+    width: 33%;
+}
+.section-content .sec3 img{
+    width: 100%;
+}
+.sec3:hover{
+   opacity: .3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ****************start second section*************************** */
+
+
+
+/* **************** five second section  (Client's Feedback )*************************** */
+
+.sec5{
+    padding:100px 0 54px; 
+}
